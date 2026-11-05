@@ -1,0 +1,8 @@
+# Top menu of the website
+
+main:
+  - title: "Publications"
+    url: /publications/
+
+  - title: "CV"
+    url: /files/CV_Antsa_Randrianantenaina.pdf
