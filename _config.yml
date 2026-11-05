@@ -6,7 +6,7 @@ site_theme               : "default" # Options: "default", "air", "sunrise", "mi
 title                    : "Antsa Sarobidy Randrianantenaina"
 title_separator          : "-"
 name                     : &name "Antsa Sarobidy Randrianantenaina"
-description              : &description "Soil carbon, digital soil mapping and remote sensing in tropical landscapes"
+description              : &description "Soil carbon, digital soil mapping, smart agriculture and functional ecology in tropical landscapes."
 url                      : https://antsaro.github.io
 baseurl                  : ""
 repository               : "antsaro/antsaro.github.io"
@@ -16,7 +16,7 @@ author:
   avatar           : "profile.png"
   name             : "Antsa Sarobidy Randrianantenaina"
   pronouns         :
-  bio              : "Soil carbon · Digital soil mapping · Remote sensing · Machine learning"
+  bio              : "Soil carbon · Digital soil mapping · Smart Agriculture · Functional Ecology"
   location         : "Antananarivo, Madagascar"
   employer         : "Sorbonne Université & University of Antananarivo"
   uri              :
@@ -25,7 +25,7 @@ author:
   # Academic profiles
   googlescholar    : "https://scholar.google.com/citations?user=8rAuUBUAAAAJ"
   orcid            : "https://orcid.org/0009-0006-5212-7734"
-  researchgate     :
+  researchgate     : "https://www.researchgate.net/profile/Antsa-Sarobidy-Randrianantenaina"
 
   # Code and social
   github           : "antsaro"
