@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Antsa Sarobidy Randrianantenaina, a soil scientist and ecologist from Madagascar. I completed a double Master’s program at the **University of Antananarivo** (Tropical Agriculture and Sustainable Development, ESSA) and **Sorbonne Université** (Biodiversity, Ecology and Evolution).
+I am Antsa Sarobidy, a soil scientist and ecologist from Madagascar. I completed a double Master’s program at the **University of Antananarivo** (Tropical Agriculture and Sustainable Development, ESSA) and **Sorbonne Université** (Biodiversity, Ecology and Evolution).
 
 My research aims to understand and predict how soils store carbon and sustain ecosystem functioning in tropical landscapes under global change. I combine **Earth observation**, **machine learning**, and **spatio-temporal statistical modeling** to advance **digital soil mapping** and spatially predict soil properties and carbon stocks, from open ecosystems and agroforestry systems to blue carbon in mangroves.
 
