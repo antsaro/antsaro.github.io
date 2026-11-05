@@ -1,0 +1,216 @@
+# Site settings for Antsa Sarobidy Randrianantenaina's academic website
+
+# Basic Site Settings
+locale                   : "en-US"
+site_theme               : "default" # Options: "default", "air", "sunrise", "mint", "dirt", "contrast"
+title                    : "Antsa Sarobidy Randrianantenaina"
+title_separator          : "-"
+name                     : &name "Antsa Sarobidy Randrianantenaina"
+description              : &description "Soil carbon, digital soil mapping and remote sensing in tropical landscapes"
+url                      : https://antsaro.github.io
+baseurl                  : ""
+repository               : "antsaro/antsaro.github.io"
+
+# Sidebar (left side of every page). A blank field hides that icon.
+author:
+  avatar           : "profile.png"
+  name             : "Antsa Sarobidy Randrianantenaina"
+  pronouns         :
+  bio              : "Soil carbon · Digital soil mapping · Remote sensing · Machine learning"
+  location         : "Antananarivo, Madagascar"
+  employer         : "Sorbonne Université & University of Antananarivo"
+  uri              :
+  email            : "antsarobbb@gmail.com"
+
+  # Academic profiles
+  googlescholar    : "https://scholar.google.com/citations?user=8rAuUBUAAAAJ"
+  orcid            : "https://orcid.org/0009-0006-5212-7734"
+  researchgate     :
+
+  # Code and social
+  github           : "antsaro"
+  linkedin         : "antsasarobidy"
+
+# Publication categories (headings on the Publications page)
+publication_category:
+  manuscripts:
+    title: 'Journal Articles'
+  preprints:
+    title: 'Submitted, Under Review & Preprints'
+  datasets:
+    title: 'Datasets'
+
+# Site Settings
+teaser                   :
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
+og_image                 : og-image.png
+atom_feed:
+  hide                   : false
+  path                   :
+
+
+# ---------------------------------------------------------------
+# Technical settings below: leave these as they are.
+# ---------------------------------------------------------------
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Collections
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+
+# Page defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+timezone: Indian/Antananarivo
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  ignore:
+    envs: development
